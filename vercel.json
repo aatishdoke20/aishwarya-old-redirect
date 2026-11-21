@@ -1,14 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
   "redirects": [
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "aishwaryabeautyparlour.vercel.app"
-        }
-      ],
       "destination": "https://www.aishwaryaparlour.in/:path*",
       "permanent": true
     }
