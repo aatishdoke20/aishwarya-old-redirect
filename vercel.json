@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "aishwaryabeautyparlour.vercel.app"
+        }
+      ],
       "destination": "https://www.aishwaryaparlour.in/:path*",
       "permanent": true
     }
