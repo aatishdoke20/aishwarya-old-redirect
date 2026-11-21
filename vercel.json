@@ -1,10 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "public",
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://www.aishwaryaparlour.in/:path*",
+      "source": "/(.*)",
+      "destination": "https://www.aishwaryaparlour.in/$1",
       "permanent": true
     }
   ]
